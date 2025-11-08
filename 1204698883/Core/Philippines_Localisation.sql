@@ -1,6 +1,6 @@
 /*
 	Localisation
-	Authors: ChimpanG, SeelingCat
+	Authors: ChimpanG, SeelingCat, Eilonwy06
 */
 
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
@@ -54,15 +54,18 @@ VALUES
 -- Rivers
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_RIVER_PASIG_RIVER",		"Pasig"		),
-	("en_US",	"LOC_NAMED_RIVER_AGUSAN_RIVER",		"Agusan"	),
-	("en_US",	"LOC_NAMED_RIVER_CAGAYAN_RIVER",	"Cagayan"	),
-	("en_US",	"LOC_NAMED_RIVER_MINDANAO_RIVER",	"Pulangi"	),
-	("en_US",	"LOC_NAMED_RIVER_PAMPANGA_RIVER",	"Pampanga"	),
-	("en_US",	"LOC_NAMED_RIVER_TULLAHAN_RIVER",	"Tullahan"	),
-	("en_US",	"LOC_NAMED_RIVER_CHICO_RIVER",		"Chico"	    ),
-	("en_US",	"LOC_NAMED_RIVER_MARIKINA_RIVER",	"Marikina"  ),
+	("en_US",	"LOC_NAMED_RIVER_PASIG_RIVER",		"Pasig River"		),
+	("en_US",	"LOC_NAMED_RIVER_AGUSAN_RIVER",		"Agusan River"		),
+	("en_US",	"LOC_NAMED_RIVER_CAGAYAN_RIVER",	"Cagayan River"		),
+	("en_US",	"LOC_NAMED_RIVER_MINDANAO_RIVER",	"Pulangi River"		),
+	("en_US",	"LOC_NAMED_RIVER_PAMPANGA_RIVER",	"Pampanga River"	),
+	("en_US",	"LOC_NAMED_RIVER_TULLAHAN_RIVER",	"Tullahan River"	),
+	("en_US",	"LOC_NAMED_RIVER_CHICO_RIVER",		"Chico River"	    ),
+	("en_US",	"LOC_NAMED_RIVER_MARIKINA_RIVER",	"Marikina River"  	),
+	("en_US",	"LOC_NAMED_RIVER_DAVAO_RIVER",		"Davao River"  		),
+	("en_US",	"LOC_NAMED_RIVER_BULUAN_RIVER",		"Buluan River"  	),
 	("en_US",	"LOC_NAMED_RIVER_RIO_GRANDE_DE_MINDANAO_RIVER",	"Rio Grande de Mindanao"	),
+	
 
 -----------------------------------------------
 -- Lakes
@@ -109,6 +112,9 @@ VALUES
 	("en_US",	"LOC_NAMED_VOLCANO_HIBOK_HIBOK",	"Hibok-Hibok"		),
 	("en_US",	"LOC_NAMED_VOLCANO_MATUTUM",	    "Matutum"	     	),
 	("en_US",	"LOC_NAMED_VOLCANO_BANAHAW",	    "Banahaw"	     	),
+	("en_US",	"LOC_NAMED_VOLCANO_MAKATURING",	    "Makaturing"	   	),
+	("en_US",	"LOC_NAMED_VOLCANO_KALATUNGAN",	    "Kalatungan"	   	),
+	("en_US",	"LOC_NAMED_VOLCANO_ARAYAT",	    	"Arayat"	     	),
 
 -----------------------------------------------
 -- Deserts
@@ -221,7 +227,7 @@ VALUES
 	("en_US",	"LOC_CITY_NAME_SORSOGON",	"Sorsogon"),
 	("en_US",	"LOC_CITY_NAME_LAOAG",	"Laoag"),
 	("en_US",	"LOC_CITY_NAME_TABUK",	"Tabuk"),
-	("en_US",	"LOC_CITY_NAME_ISABELA",	"Isabela"),
+	("en_US",	"LOC_CITY_NAME_ISABELA",	"Isabela de Basilan"),
 	("en_US",	"LOC_CITY_NAME_SURIGAO",	"Surigao"),
 	("en_US",	"LOC_CITY_NAME_TUGUEGARAO",	"Tuguegarao"),
 	("en_US",	"LOC_CITY_NAME_OROQUIETA",	"Oroquieta"),
@@ -233,6 +239,32 @@ VALUES
 	("en_US",	"LOC_CITY_NAME_DIPOLOG",	"Dipolog"),
 	("en_US",	"LOC_CITY_NAME_URDANETA",	"Urdaneta"),
 	("en_US",	"LOC_CITY_NAME_MAASIN",	"Maasin"),
+	("en_US",	"LOC_CITY_NAME_GENSAN",	"General Santos"),
+	("en_US",	"LOC_CITY_NAME_GENTRI",	"General Trias"),
+	("en_US",	"LOC_CITY_NAME_BORONGAN",	"Borongan"),
+	("en_US",	"LOC_CITY_NAME_MASBATE",	"Masbate"),
+	("en_US",	"LOC_CITY_NAME_TABACO",	"Tabaco"),
+	("en_US",	"LOC_CITY_NAME_Mati",	"Mati"),
+	("en_US",	"LOC_CITY_NAME_SILAY",	"Silay"),
+	("en_US",	"LOC_CITY_NAME_LAMITAN",	"Lamitan"),
+	("en_US",	"LOC_CITY_NAME_BOGO",	"Bogo"),
+	("en_US",	"LOC_CITY_NAME_BOGO",	"Bislig"),
+	("en_US",	"LOC_CITY_NAME_CARCAR",	"Carcar"),
+	("en_US",	"LOC_CITY_NAME_GINOOG",	"Ginoog"),
+	("en_US",	"LOC_CITY_NAME_IRIGA",	"Iriga"),
+	("en_US",	"LOC_CITY_NAME_IRIGA",	"Samal"),
+	("en_US",	"LOC_CITY_NAME_13MARTYR",	"Trece Martires"),
+	("en_US",	"LOC_CITY_NAME_GAPAN",	"Gapan"),
+	("en_US",	"LOC_CITY_NAME_BALIWAG",	"Baliwag"),
+	("en_US",	"LOC_CITY_NAME_KALAYAAN",	"Kalayaan West Philippine Sea"),
+	("en_US",	"LOC_CITY_NAME_NCC",	"New Clark City"),
+	("en_US",	"LOC_CITY_NAME_PATEROS",	"Pateros"),
+	("en_US",	"LOC_CITY_NAME_CAINTA",	"Cainta"),
+	("en_US",	"LOC_CITY_NAME_LILIW",	"Liliw"),
+	("en_US",	"LOC_CITY_NAME_BAGAC",	"Bagac"),
+	("en_US",	"LOC_CITY_NAME_NABUNTURAN",	"Nabunturan"),
+	("en_US",	"LOC_CITY_NAME_BIRI",	"Biringan"),
+
 
 	-- CCN
 	("en_US",	"LOC_CITY_NAME_SULU",	"Sulu"),
