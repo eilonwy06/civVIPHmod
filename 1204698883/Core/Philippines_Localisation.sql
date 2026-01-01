@@ -252,7 +252,7 @@ VALUES
 	("en_US",	"LOC_CITY_NAME_CARCAR",	"Carcar"),
 	("en_US",	"LOC_CITY_NAME_GINOOG",	"Ginoog"),
 	("en_US",	"LOC_CITY_NAME_IRIGA",	"Iriga"),
-	("en_US",	"LOC_CITY_NAME_IRIGA",	"Samal"),
+	("en_US",	"LOC_CITY_NAME_SAMAL",	"Samal"),
 	("en_US",	"LOC_CITY_NAME_13MARTYR",	"Trece Martires"),
 	("en_US",	"LOC_CITY_NAME_GAPAN",	"Gapan"),
 	("en_US",	"LOC_CITY_NAME_BALIWAG",	"Baliwag"),
